@@ -1,5 +1,5 @@
 {
-    "name": "lcobucci/jwt",
+    "name": "weilewantieba/jwt",
     "description": "A simple library to work with JSON Web Token and JSON Web Signature",
     "type": "library",
     "authors": [
@@ -17,7 +17,7 @@
         "BSD-3-Clause"
     ],
     "require": {
-        "php": "^5.6 || ^7.0",
+        "php": "^5.6 || ^8.0",
         "ext-mbstring": "*",
         "ext-openssl": "*"
     },
@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Lcobucci\\JWT\\": "src"
+            "Weilewantieba\\JWT\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Lcobucci\\JWT\\": [
+            "Weilewantieba\\JWT\\": [
                 "test/unit",
                 "test/functional"
             ]
