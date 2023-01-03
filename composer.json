@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Weilewantieba\\JWT\\": "src"
+            "weilewantieba\\JWT\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Weilewantieba\\JWT\\": [
+            "weilewantieba\\JWT\\": [
                 "test/unit",
                 "test/functional"
             ]
