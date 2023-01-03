@@ -193,3 +193,4 @@ var_dump($token->verify($signer, $publicKey)); // true when the public key was g
 
 **It's important to say that if you're using RSA keys you shouldn't invoke ECDSA signers (and vice-versa), otherwise ```sign()``` and ```verify()``` will raise an exception!**
 # jwt
+# dos-jwt
