@@ -28,16 +28,13 @@
         "mikey179/vfsstream": "~1.5"
     },
     "autoload": {
-        "psr-4": {
-            "weilewantieba\\JWT\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "weilewantieba\\JWT\\": [
-                "test/unit",
-                "test/functional"
-            ]
-        }
+           "psr-4": {
+               "Lcobucci\\JWT\\": "src"
+           }
+       },
+       "autoload-dev": {
+           "psr-4": {
+               "Lcobucci\\JWT\\Tests\\": "tests"
+           }
     }
 }
