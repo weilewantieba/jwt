@@ -39,5 +39,6 @@
                 "test/functional"
             ]
         }
-    }
+    },
+	"minimum-stability": "dev"
 }
